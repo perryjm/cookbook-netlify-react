@@ -1,0 +1,37 @@
+[
+	{
+		"name": "Crockpot White Chicken Chili",
+		"tags": ["dinner"],
+		"url": "https://www.chelseasmessyapron.com/crock-pot-white-chicken-chili/",
+		"image_url": "https://www.chelseasmessyapron.com/wp-content/uploads/2017/12/Crockpot-White-Chicken-Chili-2.jpeg.webp",
+		"backup_url": "https://www.evernote.com/client/web?login=true#?b=eb003f22-9178-0e8a-a334-27f5a65b9b65&n=7d99aa51-687a-4c59-9d37-e6b98408e404&"
+	},
+	{
+		"name": "Healthy Big Mac Sauce",
+		"tags": ["condiment"],
+		"url": "https://realsimplegood.com/healthy-big-mac-sauce/",
+		"image_url": "https://realsimplegood.com/wp-content/uploads/Healthy-Big-mac-sauce-7.jpg",
+		"backup_url": "https://www.evernote.com/client/web?login=true#?b=eb003f22-9178-0e8a-a334-27f5a65b9b65&n=de1c1153-3ef8-485c-9b73-a92982ef685e&"
+	},
+	{
+		"name": "One Pot Lemon Chicken Orzo",
+		"tags": ["dinner"],
+		"url": "https://www.spoonfulofflavor.com/one-pot-lemon-chicken-spinach-asparagus-orzo/",
+		"image_url": "https://www.spoonfulofflavor.com/wp-content/uploads/2018/04/One-Pot-Lemon-Chicken-Spinach-and-Asparagus-Orzo-with-organicgirl_3901.jpg",
+		"backup_url": "https://www.evernote.com/client/web?login=true#?b=eb003f22-9178-0e8a-a334-27f5a65b9b65&n=2629935b-6fb8-4715-8439-d4c54fd70a3b&"
+	},
+	{
+		"name": "Vegan Brownie Batter Shake",
+		"tags": ["beverage"],
+		"url": "https://detoxinista.com/vegan-peanut-butter-cup-shake/",
+		"image_url": "https://detoxinista.com/wp-content/uploads/2015/05/peanut-butter-cup-milkshake.jpg",
+		"backup_url": "https://www.evernote.com/client/web?login=true#?b=eb003f22-9178-0e8a-a334-27f5a65b9b65&n=6696bdbe-46e1-4cdf-82f0-79cf5d540001&"
+	},
+	{
+		"name": "Cucumber Sushi Boats",
+		"tags": ["dinner", "staple"],
+		"url": "https://www.delish.com/cooking/recipe-ideas/recipes/a50808/sushi-bowls-recipe/",
+		"image_url": "https://hips.hearstapps.com/del.h-cdn.co/assets/17/02/640x958/gallery-1484004139-delish-sushi-bowls-pinterest-1.jpg?resize=768:*",
+		"backup_url": "https://www.evernote.com/client/web?login=true#?b=eb003f22-9178-0e8a-a334-27f5a65b9b65&n=4e74242c-603c-443e-9600-d4389dad052a&"
+	}
+]
