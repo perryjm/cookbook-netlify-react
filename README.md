@@ -1,6 +1,8 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/64edcb9a-e4a7-443d-92bd-e9f3f8e1f9ea/deploy-status)](https://app.netlify.com/sites/perrys-cookbook/deploys)
+
 # cookbook-netlify-react
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Production site deployed [here](https://perrys-cookbook.netlify.app). This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
