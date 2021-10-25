@@ -22,7 +22,7 @@
 	},
 	{
 		"name": "Vegan Brownie Batter Shake",
-		"tags": ["beverage"],
+		"tags": ["beverage", "dessert"],
 		"url": "https://detoxinista.com/vegan-peanut-butter-cup-shake/",
 		"image_url": "https://detoxinista.com/wp-content/uploads/2015/05/peanut-butter-cup-milkshake.jpg",
 		"backup_url": "https://www.evernote.com/client/web?login=true#?b=eb003f22-9178-0e8a-a334-27f5a65b9b65&n=6696bdbe-46e1-4cdf-82f0-79cf5d540001&"
@@ -33,5 +33,12 @@
 		"url": "https://www.delish.com/cooking/recipe-ideas/recipes/a50808/sushi-bowls-recipe/",
 		"image_url": "https://hips.hearstapps.com/del.h-cdn.co/assets/17/02/640x958/gallery-1484004139-delish-sushi-bowls-pinterest-1.jpg?resize=768:*",
 		"backup_url": "https://www.evernote.com/client/web?login=true#?b=eb003f22-9178-0e8a-a334-27f5a65b9b65&n=4e74242c-603c-443e-9600-d4389dad052a&"
+	},
+	{
+		"name": "3-Ingredient Chocolate Avocado Pudding",
+		"tags": ["dessert"],
+		"url": "https://detoxinista.com/3-minute-chocolate-pudding/",
+		"image_url": "https://detoxinista.com/wp-content/uploads/2012/04/3-ingredient-healthy-chocolate-pudding-sugar-free.jpg",
+		"backup_url": "https://www.evernote.com/u/0/client/web#?b=eb003f22-9178-0e8a-a334-27f5a65b9b65&n=51e360f4-389a-42c4-9b2c-bdb40a82db9d&"
 	}
 ]
