@@ -11,16 +11,25 @@ class App extends React.Component {
 		this.onFilterChange = this.onFilterChange.bind(this);
 		this.state = { recipes: importedRecipes };
 	}
-	onFilterChange = e => {
-		if (e === '') {
+	onFilterChange = query => {
+		query = query.toLowerCase();
+		if (query === '') {
 			return this.setState({ recipes: importedRecipes });
 		}
 		let recipes = importedRecipes.filter(recipe => {
 			return recipe.tags.find(tag => {
-				return tag === e;
+				return tag.toLowerCase() === query;
 			});
 		});
-		
+		// include names
+		let matchingNames = importedRecipes.filter(recipe => {
+			let a = recipe.name.toLowerCase().split(' ');
+			return a.find(element => element === query);
+		});
+		// add names to recipes, but only if it's not already included in recipes.
+		recipes = recipes.concat(
+			matchingNames.filter(element => !recipes.includes(element))
+		);
 		return this.setState({ recipes });
 	};
 
