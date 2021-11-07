@@ -19,12 +19,12 @@ const BootstrapCardRecipe = props => {
 					</Card.Text>
 					<div className="d-grid gap-2">
 						<a href={props.recipe.url}>
-							<Button variant="primary" size="lg">
+							<Button variant="outline-primary" size="lg">
 								View the Recipe!
 							</Button>
 						</a>
 						<a href={props.recipe.backup_url}>
-							<Button variant="secondary" size="lg" disabled>
+							<Button variant="outline-secondary" size="lg" disabled>
 								Backup
 							</Button>
 						</a>
