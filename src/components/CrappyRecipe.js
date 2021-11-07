@@ -2,7 +2,7 @@ import React from 'react';
 
 const CrappyRecipe = props => {
 	return (
-		<div>
+		<div key={'recipeId' + props.recipe.id}>
 			<h2>{props.recipe.name}</h2>
 			<h4>
 				Tags:{' '}

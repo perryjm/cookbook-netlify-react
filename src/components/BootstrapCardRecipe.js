@@ -14,7 +14,9 @@ const BootstrapCardRecipe = props => {
 					<Card.Text>
 						Tags:{' '}
 						{props.recipe.tags.map(tag => {
-							return <span>{tag} </span>;
+							return (
+								<span key={'tagId' + props.recipe.id + '-' + tag}>{tag} </span>
+							);
 						})}
 					</Card.Text>
 					<div className="d-grid gap-2">

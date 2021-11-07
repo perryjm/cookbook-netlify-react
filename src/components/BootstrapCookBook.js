@@ -11,7 +11,12 @@ const CrappyCookBook = props => {
 				<FilterBox onFilterChange={props.onFilterChange} />
 				<Row>
 					{props.recipes.map(recipe => {
-						return <BootstrapCardRecipe recipe={recipe} />;
+						return (
+							<BootstrapCardRecipe
+								key={'cardRecipeId' + recipe.id}
+								recipe={recipe}
+							/>
+						);
 					})}
 				</Row>
 			</CardGroup>

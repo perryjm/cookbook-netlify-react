@@ -5,7 +5,7 @@ const CrappyCookBook = props => {
 	return (
 		<div>
 			{props.recipes.map(recipe => {
-				return <CrappyRecipe recipe={recipe} />;
+				return <CrappyRecipe key={'recipeNo' + recipe.id} recipe={recipe} />;
 			})}
 		</div>
 	);
