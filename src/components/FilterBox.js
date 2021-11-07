@@ -5,7 +5,6 @@ import FormControl from 'react-bootstrap/FormControl';
 
 const FilterBox = props => {
 	const handleChange = e => {
-		// alert(e.target.value);
 		props.onFilterChange(e.target.value);
 	};
 	return (

@@ -21,7 +21,7 @@ class App extends React.Component {
 				return tag.toLowerCase() === query;
 			});
 		});
-		// include names
+		// find matching recipe names
 		let matchingNames = importedRecipes.filter(recipe => {
 			let a = recipe.name.toLowerCase().split(' ');
 			return a.find(element => element === query);
