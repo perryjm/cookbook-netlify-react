@@ -4,6 +4,10 @@
 
 Production site deployed [here](https://perrys-cookbook.netlify.app). This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Adding a recipe procedure
+
+add an entry to recipes.json
+
 ## Dependencies
 
 - [React-Bootstrap](https://react-bootstrap.github.io/)
