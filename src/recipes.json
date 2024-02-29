@@ -97,10 +97,18 @@
   },
   {
     "id": "13",
-    "name": "Southwest Quinoa Salad",
+    "name": "Mexican Quinoa Recipe – One Pan",
     "tags": ["lunch", "dinner"],
-    "url": "https://livesimply.me/yogurt-fruit-dip/",
-    "image_url": "https://www.momables.com/wp-content/uploads/2019/04/southwest-quinoa-post_1.jpg",
-    "backup_url": "https://www.evernote.com/shard/s658/nl/124390052/0f31d9ee-a8a6-4165-9c3c-8b8c207a5a2e?title=Southwest%20Quinoa%20Salad%20%7C%20MOMables%20Family%20Mealtime%20Solutions"
+    "url": "https://foolproofliving.com/mexican-quinoa/",
+    "image_url": "https://foolproofliving.com/wp-content/uploads/2019/01/Mexican-Quinoa-.jpg",
+    "backup_url": "https://www.evernote.com/shard/s658/nl/124390052/047ca4b6-f4bf-4a62-a108-e6362a5c7fab?title=Mexican%20Quinoa%20Recipe%20-%20One-Pan%20-%20Foolproof%20Living"
+  },
+  {
+    "id": "14",
+    "name": "Sweet Potato Quinoa Bowl",
+    "tags": ["lunch", "dinner"],
+    "url": "https://foolproofliving.com/sweet-potato-and-quinoa-power-bowl-with-asian-tahini-dressing-4/",
+    "image_url": "https://foolproofliving.com/wp-content/uploads/2021/06/sweet-potato-and-quinoa-bowl-recipe.jpg",
+    "backup_url": "https://www.evernote.com/shard/s658/nl/124390052/abba700c-f4e7-4457-aa94-c5de94660e42?title=Sweet%20Potato%20Quinoa%20Bowl%20Recipe%20-%20Foolproof%20Living"
   }
 ]
