@@ -5,3 +5,5 @@
 [build.environment]
   NODE_OPTIONS = "--openssl-legacy-provider"
   NODE_VERSION = "18"
+  AWS_LAMBDA_JS_RUNTIME = "nodejs18.x"
+  NODE_BUILD_IMAGE = "noble"
