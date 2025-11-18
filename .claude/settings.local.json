@@ -2,7 +2,9 @@
   "permissions": {
     "allow": [
       "Bash(npm start)",
-      "Bash(NODE_OPTIONS=--openssl-legacy-provider npm start)"
+      "Bash(NODE_OPTIONS=--openssl-legacy-provider npm start)",
+      "Bash(netlify:*)",
+      "Bash(npm run build)"
     ],
     "deny": [],
     "ask": []
