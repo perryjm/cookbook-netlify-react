@@ -1,8 +1,7 @@
+import './theme.css';
 import './App.css';
 import React from 'react';
-import Container from 'react-bootstrap/Container';
 import BootstrapCookBook from './components/BootstrapCookBook.js';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import importedRecipes from './recipes.json';
 import { filterRecipesAnd, filterRecipesOr } from './filterUtils';
 
@@ -28,13 +27,17 @@ class App extends React.Component {
 	render() {
 		return (
 			<div className="App">
-				<Container>
-					<h1>Our Favorite Recipes!</h1>
+				<div className="app-header">
+					<div className="app-container">
+						<h1 className="app-title">Recipes</h1>
+					</div>
+				</div>
+				<div className="app-container">
 					<BootstrapCookBook
 						recipes={this.state.recipes}
 						onFilterChange={this.onFilterChange}
 					/>
-				</Container>
+				</div>
 			</div>
 		);
 	}

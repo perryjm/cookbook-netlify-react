@@ -1,0 +1,115 @@
+/* iOS-style Theme System with automatic light/dark mode */
+
+:root {
+  /* Light Mode Colors (iOS inspired) */
+  --bg-primary: #f2f2f7;
+  --bg-secondary: #ffffff;
+  --bg-tertiary: #ffffff;
+  --text-primary: #000000;
+  --text-secondary: #3c3c43;
+  --text-tertiary: #8e8e93;
+  --border-color: rgba(60, 60, 67, 0.18);
+  --separator-color: rgba(60, 60, 67, 0.29);
+  --accent-color: #007aff;
+  --accent-hover: #0051d5;
+  --card-bg: #ffffff;
+  --card-shadow: rgba(0, 0, 0, 0.1);
+  --search-bg: rgba(142, 142, 147, 0.12);
+  --search-focus-bg: rgba(142, 142, 147, 0.18);
+  --overlay-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Dark Mode Colors (iOS inspired) */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-primary: #000000;
+    --bg-secondary: #1c1c1e;
+    --bg-tertiary: #2c2c2e;
+    --text-primary: #ffffff;
+    --text-secondary: #ebebf5;
+    --text-tertiary: #8e8e93;
+    --border-color: rgba(84, 84, 88, 0.48);
+    --separator-color: rgba(84, 84, 88, 0.65);
+    --accent-color: #0a84ff;
+    --accent-hover: #409cff;
+    --card-bg: #1c1c1e;
+    --card-shadow: rgba(0, 0, 0, 0.5);
+    --search-bg: rgba(142, 142, 147, 0.24);
+    --search-focus-bg: rgba(142, 142, 147, 0.32);
+    --overlay-bg: rgba(0, 0, 0, 0.6);
+  }
+}
+
+/* Global iOS-style base */
+* {
+  box-sizing: border-box;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text',
+    'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* iOS-style smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--text-tertiary);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-secondary);
+}
+
+/* iOS-style animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Reduce motion for accessibility */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

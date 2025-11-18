@@ -1,31 +1,31 @@
 import React from 'react';
-import Row from 'react-bootstrap/Row';
 import BootstrapCardRecipe from './BootstrapCardRecipe.js';
 import FilterBox from './FilterBox.js';
-import CardGroup from 'react-bootstrap/CardGroup';
-import Container from 'react-bootstrap/Container';
+import '../CookBook.css';
 
 const CrappyCookBook = props => {
 	return (
-		<div>
-			{/* FilterBox is now outside the CardGroup in its own container */}
-			<Container className="filter-container mb-4" style={{ position: 'relative' }}>
-				<FilterBox onFilterChange={props.onFilterChange} />
-			</Container>
-			
-			{/* Recipe cards in their own separate container */}
-			<CardGroup>
-				<Row>
-					{props.recipes.map(recipe => {
-						return (
-							<BootstrapCardRecipe
-								key={'cardRecipeId' + recipe.id}
-								recipe={recipe}
-							/>
-						);
-					})}
-				</Row>
-			</CardGroup>
+		<div className="cookbook-container">
+			<FilterBox onFilterChange={props.onFilterChange} />
+
+			<div className="recipes-grid">
+				{props.recipes.map((recipe, index) => {
+					return (
+						<BootstrapCardRecipe
+							key={'cardRecipeId' + recipe.id}
+							recipe={recipe}
+						/>
+					);
+				})}
+			</div>
+
+			{props.recipes.length === 0 && (
+				<div className="no-results">
+					<div className="no-results-icon">🔍</div>
+					<div className="no-results-text">No recipes found</div>
+					<div className="no-results-subtext">Try a different search term</div>
+				</div>
+			)}
 		</div>
 	);
 };

@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm start)",
+      "Bash(NODE_OPTIONS=--openssl-legacy-provider npm start)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
